@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28c9630-9e77-47ce-8bd5-e5ce6d816ab9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab_Snail/Bouncer_Snail00.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab_Snail/Bouncer_Snail00.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab_Snail/Camo_Snail00.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab_Snail/Camo_Snail00.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab_Snail/Explorer00.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab_Snail/Explorer00.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab_Snail/Square.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab_Snail/Square.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab_Snail/Tech_Snail00.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab_Snail/Tech_Snail00.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/winning.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/winning.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script_Snail/.idea/.idea.Script_Snail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script_Snail/.idea/.idea.Script_Snail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test _Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Test _Data/Managed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test _Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../Test _Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test _Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Test _Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test _Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../Test _Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test _Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Test _Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test _Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/../Test _Data/sharedassets0.assets.resS" afterDir="false" />
-    </list>
+    <list default="true" id="d28c9630-9e77-47ce-8bd5-e5ce6d816ab9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,12 +205,12 @@
       <updated>1541882832849</updated>
       <workItem from="1541882835118" duration="4612000" />
       <workItem from="1541888950698" duration="127000" />
-      <workItem from="1541920722823" duration="6609000" />
+      <workItem from="1541920722823" duration="7178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11348000" />
+    <option name="totallyTimeSpent" value="11917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
