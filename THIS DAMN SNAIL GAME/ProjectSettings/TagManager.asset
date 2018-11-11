@@ -15,6 +15,13 @@ TagManager:
   - HealthBar
   - Switch
   - Trophy
+  - Whip
+  - Snail
+  - Hole
+  - ArrowTrap
+  - Arrow
+  - HoleTrap
+  - FireTrap
   layers:
   - Default
   - TransparentFX

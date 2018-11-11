@@ -22,12 +22,9 @@ GameObject:
   - component: {fileID: 212331442841273890}
   - component: {fileID: 50603144301899170}
   - component: {fileID: 70866252657641392}
-  - component: {fileID: 114125287571041200}
-  - component: {fileID: 114172834115682920}
-  - component: {fileID: 114732604388333254}
   m_Layer: 0
   m_Name: Tech_Snail00
-  m_TagString: Untagged
+  m_TagString: Snail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,73 +77,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 2.8500006, y: 5.9200015}
   m_Direction: 0
---- !u!114 &114125287571041200
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668133976994862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 187
-    i1: 148
-    i2: 4
-    i3: 234
-    i4: 120
-    i5: 117
-    i6: 196
-    i7: 43
-    i8: 58
-    i9: 241
-    i10: 135
-    i11: 243
-    i12: 179
-    i13: 104
-    i14: 32
-    i15: 62
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 1
---- !u!114 &114172834115682920
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668133976994862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 2
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 3
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
---- !u!114 &114732604388333254
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668133976994862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf47240010684e429b2781cddb29948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterType: Snail
-  Name: Tech
-  Description: Techy Wechy
 --- !u!212 &212331442841273890
 SpriteRenderer:
   m_ObjectHideFlags: 1

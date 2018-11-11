@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/main.unity
     guid: 6c8af213854f945639c57b7342ab3ce8
+  - enabled: 1
+    path: Assets/Scenes/winning.unity
+    guid: bf008a9d71d224350a2d2351ed8b9d66
+  - enabled: 1
+    path: Assets/Scenes/unlucky.unity
+    guid: 679250433ed384997ae2df74f48eaea2

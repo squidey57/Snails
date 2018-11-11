@@ -22,12 +22,9 @@ GameObject:
   - component: {fileID: 212721031126795768}
   - component: {fileID: 50664559326889886}
   - component: {fileID: 70958067548488896}
-  - component: {fileID: 114838296082847098}
-  - component: {fileID: 114071646124731592}
-  - component: {fileID: 114237542695602940}
   m_Layer: 0
   m_Name: Bouncer_Snail00
-  m_TagString: Untagged
+  m_TagString: Snail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,73 +77,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3.74, y: 5.58}
   m_Direction: 0
---- !u!114 &114071646124731592
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1702217039125796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 2
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 3
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
---- !u!114 &114237542695602940
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1702217039125796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf47240010684e429b2781cddb29948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterType: Snail
-  Name: Bouncer
-  Description: Bouncer Wouncer
---- !u!114 &114838296082847098
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1702217039125796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 25
-    i1: 105
-    i2: 157
-    i3: 107
-    i4: 182
-    i5: 242
-    i6: 100
-    i7: 29
-    i8: 234
-    i9: 108
-    i10: 204
-    i11: 101
-    i12: 166
-    i13: 34
-    i14: 118
-    i15: 62
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 1
 --- !u!212 &212721031126795768
 SpriteRenderer:
   m_ObjectHideFlags: 1

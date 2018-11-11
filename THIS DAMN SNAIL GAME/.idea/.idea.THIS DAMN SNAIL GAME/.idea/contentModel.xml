@@ -31,8 +31,14 @@
         </e>
       </e>
       <e p="Assets/Script_Snail" t="Include">
-        <e p="Button.cs" t="Include" />
-        <e p="PlayerController.cs" t="Include" />
+        <e p="BouncerController.cs" t="Include" />
+        <e p="CamoController.cs" t="Include" />
+        <e p="CamoMechanics.cs" t="Include" />
+        <e p="ExplorerController.cs" t="Include" />
+        <e p="ExplorerMechanics.cs" t="Include" />
+        <e p="Random Switches.cs" t="Include" />
+        <e p="RestartController.cs" t="Include" />
+        <e p="TechController.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="THIS DAMN SNAIL GAME.sln" t="IncludeFlat" />

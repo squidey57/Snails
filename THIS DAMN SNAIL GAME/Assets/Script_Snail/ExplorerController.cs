@@ -14,6 +14,19 @@ public class ExplorerController: MonoBehaviour
         _rbody = GetComponent<Rigidbody2D>();
     }
 
+    void Update()
+    {
+        facemouse();
+    }
+
+    void facemouse()
+    {
+        Vector2 mousePoistion = Input.mousePosition;
+        mousePoistion = Camera.main.ScreenToWorldPoint(mousePoistion);
+        Vector2 direction = new Vector2(mousePoistion.x-transform.position.x,
+            mousePoistion.y-transform.position.y);
+        transform.up = direction;
+    }
     void FixedUpdate()
     {
         _hAxis = Input.GetAxis("Horizontal1");

@@ -7,12 +7,19 @@ public class ExplorerMechanics : MonoBehaviour
 
 
 	private int _score;
-	private int _health = 3;
+	public int _health = 3;
+
 	
-	public void LoadScene()
+	public void LoadScene0()
 	{
 		SceneManager.LoadScene("winning");
 	}
+
+	public void LoadScene1()
+	{
+		SceneManager.LoadScene("unlucky");
+	}
+
 	
 	private void OnTriggerEnter2D(Collider2D col)
 	{
@@ -27,8 +34,41 @@ public class ExplorerMechanics : MonoBehaviour
 		{
 			Destroy(col.gameObject);
 			Debug.Log("WINNER!");
-			LoadScene();
+			LoadScene0();
 		}
+
+		if (col.CompareTag("Snail"))
+		{
+			_health = _health - 1;
+			Debug.Log(_health);
+		}
+
+		if (col.CompareTag("Snail") & _health == 0)
+		{
+			Destroy(gameObject);
+			LoadScene1();
+		}
+
+		if (col.CompareTag("HoleTrap"))
+		{
+			Destroy(gameObject);
+			Destroy(col.gameObject);
+			LoadScene1();
+		}
+
+		if (col.CompareTag("FireTrap"))
+		{
+			_health = _health - 1;
+			Debug.Log(_health);
+		}
+
+
+		if (col.CompareTag("Arrow"))
+		{
+			_health = _health - 1;
+			Debug.Log(_health);
+		}
+		
 	}
 	
 }
