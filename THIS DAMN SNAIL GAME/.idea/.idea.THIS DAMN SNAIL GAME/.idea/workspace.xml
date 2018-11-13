@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d28c9630-9e77-47ce-8bd5-e5ce6d816ab9" name="Default Changelist" comment="" />
+    <list default="true" id="d28c9630-9e77-47ce-8bd5-e5ce6d816ab9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.THIS DAMN SNAIL GAME/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,31 +19,32 @@
     <session id="-216679135">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="8" />
+          <entry key="cs" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="8" />
+          <entry key="C#" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2114" />
+          <entry key="cs" value="2853" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2114" />
+          <entry key="C#" value="2853" />
         </counts>
       </usages-collector>
     </session>
@@ -46,10 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="900">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <marker date="1541925747119" expanded="true" signature="6:113" ph="..." />
+                <marker date="1541925747119" expanded="false" signature="6:113" ph="..." />
                 <marker date="1541925747119" expanded="true" signature="160:1123" ph="{...}" />
                 <marker date="1541925747119" expanded="true" signature="239:282" ph="{...}" />
                 <marker date="1541925747119" expanded="true" signature="309:352" ph="{...}" />
@@ -66,16 +74,88 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Random Switches.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="163">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
-                <marker date="1541927610497" expanded="true" signature="6:127" ph="..." />
-                <marker date="1541927610497" expanded="true" signature="173:526" ph="{...}" />
-                <marker date="1541927610497" expanded="true" signature="199:510" ph="{...}" />
-                <marker date="1541927610497" expanded="true" signature="447:492" ph="{...}" />
+                <marker date="1542068247819" expanded="true" signature="6:108" ph="..." />
+                <marker date="1542068247819" expanded="true" signature="156:830" ph="{...}" />
+                <marker date="1542068247819" expanded="true" signature="369:427" ph="{...}" />
+                <marker date="1542068247819" expanded="true" signature="455:827" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera0follow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="46" selection-end-column="1" />
+              <folding>
+                <marker date="1542068367209" expanded="true" signature="62:1628" ph="{...}" />
+                <marker date="1542068367209" expanded="true" signature="378:517" ph="{...}" />
+                <marker date="1542068367209" expanded="true" signature="575:871" ph="{...}" />
+                <marker date="1542068367209" expanded="true" signature="609:865" ph="{...}" />
+                <marker date="1542068367209" expanded="true" signature="946:1625" ph="{...}" />
+                <marker date="1542068367209" expanded="true" signature="970:1280" ph="{...}" />
+                <marker date="1542068367209" expanded="true" signature="1303:1619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera1follow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <marker date="1542068563661" expanded="true" signature="62:1422" ph="{...}" />
+                <marker date="1542068563661" expanded="true" signature="363:485" ph="{...}" />
+                <marker date="1542068563661" expanded="true" signature="537:791" ph="{...}" />
+                <marker date="1542068563661" expanded="true" signature="562:788" ph="{...}" />
+                <marker date="1542068563661" expanded="true" signature="860:1419" ph="{...}" />
+                <marker date="1542068563661" expanded="true" signature="875:1134" ph="{...}" />
+                <marker date="1542068563661" expanded="true" signature="1151:1416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera2follow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <marker date="1542068813437" expanded="true" signature="62:1419" ph="{...}" />
+                <marker date="1542068813437" expanded="true" signature="363:482" ph="{...}" />
+                <marker date="1542068813437" expanded="true" signature="534:788" ph="{...}" />
+                <marker date="1542068813437" expanded="true" signature="559:785" ph="{...}" />
+                <marker date="1542068813437" expanded="true" signature="857:1416" ph="{...}" />
+                <marker date="1542068813437" expanded="true" signature="872:1131" ph="{...}" />
+                <marker date="1542068813437" expanded="true" signature="1148:1413" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera3follow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <marker date="1542068727907" expanded="true" signature="62:1419" ph="{...}" />
+                <marker date="1542068727907" expanded="true" signature="363:482" ph="{...}" />
+                <marker date="1542068727907" expanded="true" signature="534:788" ph="{...}" />
+                <marker date="1542068727907" expanded="true" signature="559:785" ph="{...}" />
+                <marker date="1542068727907" expanded="true" signature="857:1416" ph="{...}" />
+                <marker date="1542068727907" expanded="true" signature="872:1131" ph="{...}" />
+                <marker date="1542068727907" expanded="true" signature="1148:1413" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,7 +182,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/Random Switches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/camera0follow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/camera3follow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/camera2follow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/camera1follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script_Snail/RestartController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -117,6 +201,11 @@
         <option value="$PROJECT_DIR$/Assets/Script_Snail/RestartController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs" />
         <option value="$PROJECT_DIR$/Assets/Script_Snail/Random Switches.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script_Snail/camera0follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script_Snail/camera1follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script_Snail/camera3follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script_Snail/camera2follow.cs" />
       </list>
     </option>
   </component>
@@ -126,9 +215,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="342" />
     <option name="y" value="30" />
-    <option name="width" value="663" />
+    <option name="width" value="1024" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -137,9 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -158,12 +245,16 @@
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Pacman Clone/PacmanClone/PacmanClone.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,11 +297,12 @@
       <workItem from="1541882835118" duration="4612000" />
       <workItem from="1541888950698" duration="127000" />
       <workItem from="1541920722823" duration="7178000" />
+      <workItem from="1542063606372" duration="3655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11917000" />
+    <option name="totallyTimeSpent" value="15572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,10 +314,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <frame x="342" y="30" width="1024" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1219697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,10 +365,32 @@
     <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Button 0.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/PlayerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Button.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Restart.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Restart.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Random Switches.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <marker date="1541925747119" expanded="false" signature="6:113" ph="..." />
+            <marker date="1541925747119" expanded="true" signature="160:1123" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="239:282" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="309:352" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="402:1119" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="437:508" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="556:634" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="666:723" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="770:819" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="854:931" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="966:1023" ph="{...}" />
+            <marker date="1541925747119" expanded="true" signature="1056:1113" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -293,36 +407,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerMechanics.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/ExplorerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="163">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding>
-            <marker date="1541925747119" expanded="true" signature="6:113" ph="..." />
-            <marker date="1541925747119" expanded="true" signature="160:1123" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="239:282" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="309:352" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="402:1119" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="437:508" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="556:634" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="666:723" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="770:819" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="854:931" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="966:1023" ph="{...}" />
-            <marker date="1541925747119" expanded="true" signature="1056:1113" ph="{...}" />
+            <marker date="1542068247819" expanded="true" signature="6:108" ph="..." />
+            <marker date="1542068247819" expanded="true" signature="156:830" ph="{...}" />
+            <marker date="1542068247819" expanded="true" signature="369:427" ph="{...}" />
+            <marker date="1542068247819" expanded="true" signature="455:827" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/Random Switches.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera0follow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="46" selection-end-column="1" />
           <folding>
-            <marker date="1541927610497" expanded="true" signature="6:127" ph="..." />
-            <marker date="1541927610497" expanded="true" signature="173:526" ph="{...}" />
-            <marker date="1541927610497" expanded="true" signature="199:510" ph="{...}" />
-            <marker date="1541927610497" expanded="true" signature="447:492" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="62:1628" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="378:517" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="575:871" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="609:865" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="946:1625" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="970:1280" ph="{...}" />
+            <marker date="1542068367209" expanded="true" signature="1303:1619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera1follow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1542068563661" expanded="true" signature="62:1422" ph="{...}" />
+            <marker date="1542068563661" expanded="true" signature="363:485" ph="{...}" />
+            <marker date="1542068563661" expanded="true" signature="537:791" ph="{...}" />
+            <marker date="1542068563661" expanded="true" signature="562:788" ph="{...}" />
+            <marker date="1542068563661" expanded="true" signature="860:1419" ph="{...}" />
+            <marker date="1542068563661" expanded="true" signature="875:1134" ph="{...}" />
+            <marker date="1542068563661" expanded="true" signature="1151:1416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera2follow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <marker date="1542068813437" expanded="true" signature="62:1419" ph="{...}" />
+            <marker date="1542068813437" expanded="true" signature="363:482" ph="{...}" />
+            <marker date="1542068813437" expanded="true" signature="534:788" ph="{...}" />
+            <marker date="1542068813437" expanded="true" signature="559:785" ph="{...}" />
+            <marker date="1542068813437" expanded="true" signature="857:1416" ph="{...}" />
+            <marker date="1542068813437" expanded="true" signature="872:1131" ph="{...}" />
+            <marker date="1542068813437" expanded="true" signature="1148:1413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script_Snail/camera3follow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <marker date="1542068727907" expanded="true" signature="62:1419" ph="{...}" />
+            <marker date="1542068727907" expanded="true" signature="363:482" ph="{...}" />
+            <marker date="1542068727907" expanded="true" signature="534:788" ph="{...}" />
+            <marker date="1542068727907" expanded="true" signature="559:785" ph="{...}" />
+            <marker date="1542068727907" expanded="true" signature="857:1416" ph="{...}" />
+            <marker date="1542068727907" expanded="true" signature="872:1131" ph="{...}" />
+            <marker date="1542068727907" expanded="true" signature="1148:1413" ph="{...}" />
           </folding>
         </state>
       </provider>

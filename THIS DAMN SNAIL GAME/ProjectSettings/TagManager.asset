@@ -22,6 +22,9 @@ TagManager:
   - Arrow
   - HoleTrap
   - FireTrap
+  - Bouncer
+  - Tech
+  - Camo
   layers:
   - Default
   - TransparentFX

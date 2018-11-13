@@ -36,9 +36,12 @@
         <e p="CamoMechanics.cs" t="Include" />
         <e p="ExplorerController.cs" t="Include" />
         <e p="ExplorerMechanics.cs" t="Include" />
-        <e p="Random Switches.cs" t="Include" />
         <e p="RestartController.cs" t="Include" />
         <e p="TechController.cs" t="Include" />
+        <e p="camera0follow.cs" t="Include" />
+        <e p="camera1follow.cs" t="Include" />
+        <e p="camera2follow.cs" t="Include" />
+        <e p="camera3follow.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="THIS DAMN SNAIL GAME.sln" t="IncludeFlat" />
