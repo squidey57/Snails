@@ -1,44 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class CamoController: MonoBehaviour
-{	
-	// Players rigid body component.
-	private Rigidbody2D _rigidbody;
-	// Player Input from the horizontal axis, Keys A and D / Left and Right arrows.
-	private float _horizontalAxis;
-	// Player Input from the horizontal axis, Keys W and S / Up and Down arrows.
-	private float _verticalAxis;
-	// Speed the player moves at.
+{
+	private Rigidbody2D _rbody;
+	private float _hAxis;
+	private float _vAxis;
+	private float _vTurn;
+	private float _hTurn;
 	private float _speed = 300f;
-
-	
-	// Use this for initialization
-	void Start ()
-	{
-		// Gets the rigid body component of the player GameObject.
-		_rigidbody = GetComponent<Rigidbody2D>();
-		
-	}
-
+	private float _rspeed = 200f;
+	private Vector2 _turndir;
+	private float _turnA;
+	private Quaternion _rot;
+    
+    
+   
     
 
-	// Update is called once per physics step.
-	void FixedUpdate ()
+	void Start()
 	{
-		// Get the players horizontal axis input, this is the W and D keys, Left and Right arrow, or the left jostick on an xbox controller.
-		// A float value between -1 and 1.
-		_horizontalAxis = Input.GetAxis("Horizontal2");
-		_verticalAxis = Input.GetAxis("Vertical2");
-		
-		// Get the players horizontal input like above.
-		// GetAxis raw will return an integer between -1 and 1;
-//		_horizontalAxis = Input.GetAxisRaw("Horizontal");
-//		_verticalAxis = Input.GetAxisRaw("Vertical");
-		
-		
-		// Set the velocity of the players rigid body to be the horizontal/vertical axis muliplied by the fixedDeltaTime and the player's speed.
-		_rigidbody.velocity = new Vector2(_horizontalAxis * Time.fixedDeltaTime * _speed, _verticalAxis * Time.fixedDeltaTime * _speed);
+		_rbody = GetComponent<Rigidbody2D>();
 	}
+
+   
+	void FixedUpdate()
+	{
+		_hAxis = Input.GetAxis("Horizontal2");
+		_vAxis = Input.GetAxis("Vertical2");
+		_hTurn = Input.GetAxis("TurnH2");
+		_vTurn = Input.GetAxis("TurnV2");
+		_rbody.velocity = new Vector2(_hAxis * Time.fixedDeltaTime * _speed,
+			_vAxis * Time.fixedDeltaTime * _speed);
+		_turndir = new Vector2(_hTurn,_vTurn);
+		_turnA = Mathf.Atan2(_hTurn, _vTurn) * Mathf.Rad2Deg;
+
+		if (_vTurn != 0 && _hTurn != 0)
+		{
+			_rot = Quaternion.AngleAxis(_turnA, Vector3.forward);
+			_rbody.transform.rotation = Quaternion.Slerp(_rbody.transform.rotation, _rot, _rspeed*Time.fixedDeltaTime);
+		}
+
+
+	}
+
 }

@@ -1,38 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class ExplorerController: MonoBehaviour
 {
     private Rigidbody2D _rbody;
     private float _hAxis;
     private float _vAxis;
-    private float _sExplorer = 500f;
+    private float _vTurn;
+    private float _hTurn;
+    private float _speed = 500f;
+    private float _rspeed = 200f;
+    private Vector2 _turndir;
+    private float _turnA;
+    private Quaternion _rot;
+    
+    
+   
+    
 
     void Start()
     {
         _rbody = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        facemouse();
-    }
-
-    void facemouse()
-    {
-        Vector2 mousePoistion = Input.mousePosition;
-        mousePoistion = Camera.main.ScreenToWorldPoint(mousePoistion);
-        Vector2 direction = new Vector2(mousePoistion.x-transform.position.x,
-            mousePoistion.y-transform.position.y);
-        transform.up = direction;
-    }
+   
     void FixedUpdate()
     {
-        _hAxis = Input.GetAxis("Horizontal1");
-        _vAxis = Input.GetAxis("Vertical1");
-        _rbody.velocity = new Vector2(_hAxis * Time.fixedDeltaTime * _sExplorer,
-            _vAxis * Time.fixedDeltaTime * _sExplorer);
+        _hAxis = Input.GetAxis("Horizontal2");
+        _vAxis = Input.GetAxis("Vertical2");
+        _hTurn = Input.GetAxis("TurnH2");
+        _vTurn = Input.GetAxis("TurnV2");
+        _rbody.velocity = new Vector2(_hAxis * Time.fixedDeltaTime * _speed,
+            _vAxis * Time.fixedDeltaTime * _speed);
+        _turndir = new Vector2(_hTurn,_vTurn);
+        _turnA = Mathf.Atan2(_hTurn, _vTurn) * Mathf.Rad2Deg;
+
+        if (_vTurn != 0 && _hTurn != 0)
+        {
+            _rot = Quaternion.AngleAxis(_turnA, Vector3.forward);
+            _rbody.transform.rotation = Quaternion.Slerp(_rbody.transform.rotation, _rot, _rspeed*Time.fixedDeltaTime);
+        }
+
+
     }
 
 }
