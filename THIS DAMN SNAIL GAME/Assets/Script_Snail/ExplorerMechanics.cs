@@ -37,13 +37,13 @@ public class ExplorerMechanics : MonoBehaviour
 			LoadScene0();
 		}
 
-		if (col.CompareTag("Snail"))
+		if (col.CompareTag("Camo"))
 		{
 			_health = _health - 1;
 			Debug.Log(_health);
 		}
 
-		if (col.CompareTag("Snail") & _health == 0)
+		if (col.CompareTag("Camo") & _health == 0)
 		{
 			Destroy(gameObject);
 			LoadScene1();
